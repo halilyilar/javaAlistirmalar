@@ -15,7 +15,7 @@ public class arraybolunebilen {
             System.out.println( i + "elemanı  giriniz");
             arr[i]=scan.nextInt();
 
-            if (i%3==0 ){
+            if (arr[i]%3==0 ){
                 sayac++;
             }
 
